@@ -55,7 +55,7 @@ Start the develompent server:
 Development Server
 The app uses Vite for fast development, and with Vite’s Hot Module Replacement (HMR), any changes made to the code will be immediately reflected in the browser.
 
-
+```
 frontend/
   ├── public/                # Static assets (images)
   ├── src/                   # Source files for the app
@@ -64,13 +64,13 @@ frontend/
   │   ├── components/        # Reusable UI components (buttons, forms, etc.)
   │   ├── pages/             # Pages of the app (Dashboard, Player Cards, etc.)
   |   |--routes/             # Routes
-  │   ├── App.jsx             # Main app component, root of the app
+  │   ├── App.jsx            # Main app component, root of the app
   │   ├── main.jsx           # Entry point of the React app
   │   └── styles/            # Global and component-specific styles
   ├── .env                   # Environment variables file
   ├── package.json           # NPM scripts and dependencies for frontend
   └── vite.config.js         # Vite configuration file
-
+```
 Scripts
 The following scripts are available for managing the development and build process:
 npm run dev: Starts the Vite development server. Open the app at http://localhost:5173.
